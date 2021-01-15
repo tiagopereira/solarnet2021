@@ -1,0 +1,14 @@
+name: solarnet
+channels:
+  - conda-forge
+dependencies:
+  - sunpy=2.0.6
+  - heliopy=0.15.2
+  - ndcube=1.4.2
+  - jupyter
+  - bqplot
+  - pip
+  - pip:
+    - cdflib==0.3.19
+    - git+https://github.com/tiagopereira/sunraster.git@aa4a219
+    - git+https://gitlab.com/snowwattle/irispy-lmsal.git@5121196b
