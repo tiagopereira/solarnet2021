@@ -6,27 +6,32 @@ repo_name: tiagopereira/solarnet2021
 repo_url: https://github.com/tiagopereira/solarnet2021
 edit_uri: ""
 
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/tiagopereira
+    - icon: fontawesome/solid/globe
+      link: https://tiagopereira.space/
 
-
-pages:
+nav:
     - Preparation: index.md
 theme:
     name: 'material'
     font: false   # avoid Google fonts for GDPR compliance
-
-
-extra:
-  social:
-    - type: github-alt
-      link: https://github.com/tiagopereira
-    - type: globe
-      link: https://tiagopereira.space/
+    icon:
+      logo: material/flare
+    favicon: 'images/favicon_flare.png'
+    palette: # was teal, deep purple
+        primary: 'light blue'
+        accent: 'yellow'
+        scheme: default
 
 # Extensions
 markdown_extensions:
   - toc:
       permalink: true
   - admonition
+  - attr_list
   - codehilite
   - pymdownx.arithmatex
   - pymdownx.betterem:
@@ -48,4 +53,3 @@ markdown_extensions:
 # For mathjax
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
-
