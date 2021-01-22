@@ -1,4 +1,4 @@
-site_name: SOLARNET 2021 IRIS and Mg II
+site_name: SOLARNET 2021 IRIS
 site_url: https://tiagopereira.space/solarnet2021
 
 # Repository
@@ -14,7 +14,7 @@ extra:
       link: https://tiagopereira.space/
 
 nav:
-    - Preparation: index.md
+    - Home: index.md
 theme:
     name: 'material'
     font: false   # avoid Google fonts for GDPR compliance

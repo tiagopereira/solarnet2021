@@ -1,4 +1,4 @@
-# SOLARNET 2021 MSSL: Analysis and Interpretation of IRIS data
+# Analysis and Interpretation of IRIS data
 
 This page contains instructions and materials for lectures and tutorials given by Tiago Pereira at the SOLARNET school hosted by MSSL in January 2021. There are two ways to work with the materials: download data and necessary packages into your computer (recommended), or online-only using Binder. The Binder option is slower, will timeout when not active, and is meant to be a failsafe option. You can use the Binder version by clicking the link below:
 
@@ -37,7 +37,13 @@ The last step is to download some data files. Please download the following data
 * [iris_l2_20180102_153155_3610108077_raster.tar.gz](http://www.lmsal.com/solarsoft/irisa/data/level2_compressed/2018/01/02/20180102_153155_3610108077/iris_l2_20180102_153155_3610108077_raster.tar.gz)
 * [aia_20140919_060030_1700_image_lev1.fits](https://drive.google.com/uc?export=download&id=1SgascyixFq7v5LzG2hcxHWJKfe0SssN5)
 
-These downloads are about 350 MB. Once you have them, you are ready to start. From the terminal, in the directory `solarnet_iris/notebooks`, start jupyter:
+These downloads are about 350 MB. The IRIS raster file as a tar archive (in this case with a single file). You will need to unpack it before starting:
+
+```bash
+tar zxvf iris_l2_20180102_153155_3610108077_raster.tar.gz
+```
+
+Once you have all the data files in the `solarnet_iris/notebooks` directory, you are ready to start. From the terminal, in the directory `solarnet_iris/notebooks`, start jupyter:
 
 ```bash
 jupyter notebook
@@ -45,4 +51,5 @@ jupyter notebook
 
 ## Slides
 
-Slides from the lectures are not yet available. They will be available later from this page.
+* [Analysis of IRIS data (theory session)](https://drive.google.com/file/d/1TMHf_fRKbmS5iX5SfxNJp1rGEg81CBhD/view?usp=sharing)
+* [IRIS hands on](https://drive.google.com/file/d/1Gsc9tvUYLFbNlNaOkNigI2_tEYdDnJaE/view?usp=sharing)
