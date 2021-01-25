@@ -16,5 +16,5 @@ dependencies:
   - ndcube=1.4.2
   - pip:
     - cdflib==0.3.19
-    - git+https://gitlab.com/snowwattle/irispy-lmsal.git@5121196b4b27b59b04031c99179a20bc79a24fdf
     - git+https://github.com/tiagopereira/sunraster.git@a54c1031a9bf9ac31dd0a0aeebe7634b2ace211a
+    - git+https://gitlab.com/snowwattle/irispy-lmsal.git@5121196b4b27b59b04031c99179a20bc79a24fdf
